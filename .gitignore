@@ -1,0 +1,41 @@
+# IDE / workspace metadata (Eclipse / STM32Cube)
+.metadata/
+.project
+.cproject
+*.launch
+
+# Build outputs and object files
+**/Debug/
+**/Release/
+*.elf
+*.map
+*.list
+*.su
+*.o
+*.d
+*.dSYM/
+*.hex
+
+# Binary and archives you probably don't want in git
+*.zip
+*.bin
+*.tar
+*.tar.gz
+*.7z
+*.apk
+*.exe
+
+# Temp files, logs
+*.log
+*.tmp
+*.bak
+*.swp
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Local tool settings
+*.settings/
+.vscode/
+.idea/

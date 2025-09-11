@@ -25,7 +25,7 @@
 
 int main(void)
 {
-	//RCC_AHB1ENR for Port D = 0x4002 3800 + x30 = 0x40023830
+	//RCC_AHB1ENR for Port D = 0x4002 3800 + x30 = 0x40023830 for CLock Supply
 
 	uint32_t *pRcc_AHB1_D = (uint32_t*)0x40023830;
 	*pRcc_AHB1_D |= ( 1 << 3 );

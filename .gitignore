@@ -39,3 +39,7 @@ Thumbs.db
 *.settings/
 .vscode/
 .idea/
+
+
+# SEGGER SystemView (external vendor tool)
+RTOS/Software&Toolchain/SystemView/
